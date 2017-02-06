@@ -1,2 +1,4 @@
-# docker-compose-alpine
-Web Dev Environments based on docker-compose with Alpine
+# About
+
+This is the Git repo with multi-container Docker applications based on Alpine images
+ 
