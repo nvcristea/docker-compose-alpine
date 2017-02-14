@@ -1,7 +1,7 @@
 version: '2'
 services:
   web7:
-    build: ../nginx
+    build: ../images/nginx-tofpm
     volumes_from:
       - container:vbase
     ports:
@@ -15,7 +15,7 @@ services:
       - memcached
       - elasticsearch
   phpfpm:
-    build: ../php7-fpm
+    build: ../images/php7-fpm
     volumes_from:
       - container:vbase
     environment:
